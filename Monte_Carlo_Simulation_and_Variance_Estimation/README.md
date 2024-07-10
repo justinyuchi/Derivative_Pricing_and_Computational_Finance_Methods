@@ -1,7 +1,7 @@
 
 # Monte Carlo Simulation and Variance Estimation
 
-This project demonstrates the use of Monte Carlo simulation to estimate the expected value of the expression \((N^3 - K)^+\), where \(N\) is a normally distributed random variable. The notebook also includes variance estimation and visualization.
+This project demonstrates the use of Monte Carlo simulation to estimate the expected value of the expression `(N^3 - K)^+`, where `N` is a normally distributed random variable. The notebook also includes variance estimation and visualization.
 
 ![Expectation of max(N^3 - K, 0) for different K and Sigma](graph/expectation_different_K_and_sigma.png)
 
