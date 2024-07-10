@@ -24,23 +24,12 @@ $$
 \theta = E[(N^3 - K)^+]
 $$
 
+The following graph show how variance of our estimator decreases as sample size increases.
 ![Expectation of max(N^3 - K, 0) for different K and Sigma](graph/variance_different_sample_sizes.png)
+
+The following graph shows the minimum required sample size for a given precision or variance.
 ![Expectation of max(N^3 - K, 0) for different K and Sigma](graph/sample_size_given_precision_level.png)
 
 
-### Implementation
-The project includes a function `MC_theta` to perform the static Monte Carlo approximation for the expectation of \(\max(N^3 - K, 0)\).
-
-#### Function: `MC_theta`
-**Inputs:**
-- `mu`: Mean of the normal random variable \(N\).
-- `sigma`: Standard deviation of \(N\).
-- `K`: Parameter in the function.
-- `n`: Monte Carlo sample size.
-- `seed`: Random seed parameter for reproducibility.
-
-**Outputs:**
-- Estimation of the expectation of \(\max(N^3 - K, 0)\).
-
-### Visualization
-The project includes visualizations to illustrate the distribution of the simulated values and the resulting estimations.
+### Detailed Implementation
+For implementation, please look at the [jupyter notebook](/code/Monte_Carlo_Simulation_and_Variance_Estimation.ipynb)
