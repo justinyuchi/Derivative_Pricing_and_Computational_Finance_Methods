@@ -12,9 +12,10 @@ This repository contains various projects and implementations related to derivat
   - Includes examples and explanations of the binomial tree approach.
   ![Binomial Tree to Price an American Put Option](American_Options_Binomial_Tree/graph/bionomial_tree.png)
 
-- [**Monte_Carlo_Simulation_and_Variance_Estimation**](./Monte_Carlo_Simulation_and_Variance_Estimation): 
-  - Monte Carlo simulation techniques for option pricing.
-  - Methods for variance estimation to improve the accuracy of Monte Carlo simulations.
+- [**Monte_Carlo_Simulation_and_Variance_Estimation**](Monte_Carlo_Simulation_and_Variance_Estimation): 
+  - This project demonstrates the use of Monte Carlo simulation to estimate the expected value of any given expression. 
+  - The project also includes variance estimation and visualization.
+  ![Expectations Given Different Ks and Sigmas](Monte_Carlo_Simulation_and_Variance_Estimation/graph/expectation_different_K_and_sigma.png)
 
 - [**Monte_Carlo_Variance_Reduction_Importance_Sampling**]: 
   - "Stay tuned for upcoming updates!"
