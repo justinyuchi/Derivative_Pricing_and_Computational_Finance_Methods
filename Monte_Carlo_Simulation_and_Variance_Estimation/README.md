@@ -20,7 +20,9 @@ The goal is to determine the expected value of `max(N^3 - K, 0)` , where:
 
 The expression for the expectation is:
 
-`\theta = E[(N^3 - K)^+]`
+$$
+\theta = E[(N^3 - K)^+]
+$$
 
 ![Expectation of max(N^3 - K, 0) for different K and Sigma](graph/variance_different_sample_sizes.png)
 ![Expectation of max(N^3 - K, 0) for different K and Sigma](graph/sample_size_given_precision_level.png)
