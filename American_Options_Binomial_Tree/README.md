@@ -37,10 +37,10 @@ This Jupyter Notebook provides an implementation of the binomial tree method for
 3. **Backward induction for the option value at each node:**: For an American option, at each node, the option value is the maximum of the intrinsic value and the discounted expected payoff. Since the information from the child nodes is required at each step, we use backward induction to determine the option value.
 
 
-
+Settings: S<sub>0</sub> = 100, K = 110, u = 3 , d = 0.5 , R = 1.2 , T = 3 
 ![Binomial Tree to Price an American Put Option](graph/bionomial_tree.png)
 
-Settings: S<sub>0</sub> = 100, K = 110, u = 3 , d = 0.5 , R = 1.2 , T = 3 
+
 
 ## Contents of the Jupyter Notebook
 The notebook includes the implementations of the followings:
