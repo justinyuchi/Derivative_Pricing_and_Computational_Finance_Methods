@@ -3,7 +3,7 @@
 
 This project demonstrates the use of Monte Carlo simulation to estimate the expected value of a given expression. The project also includes variance estimation and visualization.
 
-Variance estimation is crucial because, in real-world applications, we are often constrained by time and computational power. Efficiently conducting Monte Carlo simulations is essential. By estimating the variance of our estimator, we can employ advanced techniques such as antithetic variables and importance sampling to enhance the efficiency of our Monte Carlo simulations. (There will be another document sharing details about these techniques.)
+Variance estimation is crucial in real-world applications due to constraints on time and computational power. By estimating the variance of our estimator, we can evaluate how advanced techniques, such as antithetic variables and importance sampling, enhance the efficiency of our Monte Carlo simulations by reducing variance. Further details on these techniques will be shared in another document.
 
 In this project, we use `max(N^3 - K, 0)` as the example, where N is a normally distributed random variable.
 
