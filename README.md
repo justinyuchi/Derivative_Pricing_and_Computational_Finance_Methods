@@ -10,18 +10,17 @@ This repository contains various projects and implementations related to derivat
 - [**American_Options_Binomial_Tree**](./American_Options_Binomial_Tree): 
   - Implementations of the binomial tree model for pricing American options.
   - Includes examples and explanations of the binomial tree approach.
+  ![Binomial Tree to Price an American Put Option](American_Options_Binomial_Tree/graph/bionomial_tree.png)
 
 - [**Monte_Carlo_Simulation_and_Variance_Estimation**](./Monte_Carlo_Simulation_and_Variance_Estimation): 
   - Monte Carlo simulation techniques for option pricing.
   - Methods for variance estimation to improve the accuracy of Monte Carlo simulations.
 
-- [**Monte_Carlo_Variance_Reduction_Importance_Sampling**](./Monte_Carlo_Variance_Reduction_Importance_Sampling): 
-  - Techniques for reducing variance in Monte Carlo simulations using importance sampling.
-  - Examples demonstrating the effectiveness of variance reduction methods.
+- [**Monte_Carlo_Variance_Reduction_Importance_Sampling**]: 
+  - "Stay tuned for upcoming updates!"
 
-- [**Dynamica_Monte_Carlo_and_Stochastics_Volatility_Model**](./Dynamica_Monte_Carlo_and_Stochastics_Volatility_Model): 
-  - Dynamic Monte Carlo simulations and models incorporating stochastic volatility.
-  - Detailed implementations and discussions on stochastic volatility models.
+- [**Dynamica_Monte_Carlo_and_Stochastics_Volatility_Model**]: 
+  - "Stay tuned for upcoming updates!"
 
 ## Getting Started
 
