@@ -40,13 +40,7 @@ This Jupyter Notebook provides an implementation of the binomial tree method for
 
 ![Binomial Tree to Price an American Put Option](graph/bionomial_tree.png)
 
-Settings:
-- S<sub>0</sub> = 100
-- K = 110
-- u = 3   
-- d = 0.5  
-- R = 1.2  
-- T = 3 
+Settings: S<sub>0</sub> = 100, K = 110, u = 3 , d = 0.5 , R = 1.2 , T = 3 
 
 ## Contents of the Jupyter Notebook
 The notebook includes the implementations of the followings:
