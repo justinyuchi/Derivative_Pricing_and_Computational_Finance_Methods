@@ -15,5 +15,5 @@ The notebook includes the following sections:
 5. **Results and Visualization**: Presenting the calculated option prices and visualizing the binomial tree.
 
 
-![Binomial Tree to Price an American Put Option](/graph/bionomial_tree.png)
+![Binomial Tree to Price an American Put Option](graph/bionomial_tree.png)
 
