@@ -26,9 +26,13 @@ This repository contains various projects and implementations related to derivat
 
 ## Getting Started
 
-To get started with any of the projects, navigate to the respective folder and follow the instructions provided in the README file within each folder.
+To get started with any of the projects, navigate to the respective folder and follow the instructions provided in the README.md file within each folder.
 
 ## About Me
 
 I am a Master's student in Quantitative Finance with dual bachelor's degrees in Science and Business Administration. My academic focus includes artificial intelligence, statistics, and finance. Most of the projects in this repository provide solutions for financial applications by utilizing advanced computational methods. Visit my [personal website](https://justinyuchi.github.io/justinyuchihsu.github.io/) for more about my work and interests.
+
+## License
+
+This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
