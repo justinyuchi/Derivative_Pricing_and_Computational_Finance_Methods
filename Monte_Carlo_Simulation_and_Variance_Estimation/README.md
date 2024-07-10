@@ -32,4 +32,4 @@ The following graph shows the minimum required sample size for a given precision
 
 
 ### Detailed Implementation
-For implementation, please look at the [jupyter notebook](/code/Monte_Carlo_Simulation_and_Variance_Estimation.ipynb)
+For implementation, please look at the [jupyter notebook](code/Monte_Carlo_Simulation_and_Variance_Estimation.ipynb)
