@@ -16,6 +16,7 @@ This repository contains various projects and implementations related to derivat
   - This project demonstrates the use of Monte Carlo simulation to estimate the expected value of any given expression. 
   - The project also includes variance estimation and visualization.
   ![Expectations Given Different Ks and Sigmas](Monte_Carlo_Simulation_and_Variance_Estimation/graph/expectation_different_K_and_sigma.png)
+  ![Sample Sizes Given Precision Levels](Monte_Carlo_Simulation_and_Variance_Estimation/graph/sample_size_given_precision_level.png)
 
 - [**Monte_Carlo_Variance_Reduction_Importance_Sampling**]: 
   - "Stay tuned for upcoming updates!"
