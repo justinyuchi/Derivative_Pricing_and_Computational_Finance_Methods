@@ -10,8 +10,8 @@ This repository contains various projects and implementations related to derivat
 - [**Monte_Carlo_Simulation_and_Variance_Estimation**](Monte_Carlo_Simulation_and_Variance_Estimation): 
   - This project demonstrates the use of Monte Carlo simulation to estimate the expected value of any given expression. 
   - The project also includes variance estimation and visualization.
-  ![Expectations Given Different Ks and Sigmas](Monte_Carlo_Simulation_and_Variance_Estimation/graph/expectation_different_K_and_sigma.png)
-  ![Sample Sizes Given Precision Levels](Monte_Carlo_Simulation_and_Variance_Estimation/graph/sample_size_given_precision_level.png)
+  <img src="Monte_Carlo_Simulation_and_Variance_Estimation/graph/expectation_different_K_and_sigma.png" width="100%" />
+  <img src="Monte_Carlo_Simulation_and_Variance_Estimation/graph/sample_size_given_precision_level.png" width="100%" />
 
 - [**American_Options_Binomial_Tree**](./American_Options_Binomial_Tree): 
   - Implementations of the binomial tree model for pricing American options.
