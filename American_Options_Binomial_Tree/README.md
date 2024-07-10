@@ -17,7 +17,7 @@ This Jupyter Notebook provides an implementation of the binomial tree method for
 - **T**: Number of periods (time steps)
 
 ### Explanation for the Graph:
-- **Intrinsic Value**: `max(K - S_t, 0)`
+- **Intrinsic Value**: max(K - S<sub>0</sub>, 0)
   - This represents the payoff from exercising the option at time `t`.
 - **pv_E[payoff]**: The present value of the expected payoff of holding the option, discounted using the risk-free rate.
   - This is calculated as:
