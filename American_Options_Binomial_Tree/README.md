@@ -9,27 +9,26 @@ This Jupyter Notebook provides an implementation of the binomial tree method for
 ## An example of an American Put Option
 
 ### Definitions for Variables:
-- **\( S_0 \)**: Initial stock price
-- **\( u \)**: Upward movement factor
-- **\( d \)**: Downward movement factor
-- **\( R \)**: Risk-free Rate Parameter (1 + risk-free interest rate)
-- **\( K \)**: Strike price of the put option
-- **\( T \)**: Number of periods (time steps)
+- **S<sub>0</sub>**: Initial stock price
+- **u**: Upward movement factor
+- **d**: Downward movement factor
+- **R**: Risk-free Rate Parameter (1 + risk-free interest rate)
+- **K**: Strike price of the put option
+- **T**: Number of periods (time steps)
 
 ### Explanation for the Graph:
-- **Intrinsic Value**: \( 	ext{max}(K - S_t, 0) \)
-  - This represents the payoff from exercising the option at time \( t \).
+- **Intrinsic Value**: `max(K - S<sub>t</sub>, 0)`
+  - This represents the payoff from exercising the option at time `t`.
 - **pv_E[payoff]**: The present value of the expected payoff of holding the option, discounted using the risk-free rate.
   - This is calculated as:
-    \[
-    	ext{pv_E[payoff]} = rac{1}{R} \left( q \cdot 	ext{OptionValue}_{	ext{up}} + (1 - q) \cdot 	ext{OptionValue}_{	ext{down}} 
-ight)
-    \]
-    where \( q \) is the risk-neutral probability given by:
-    \[
-    q = rac{R - d}{u - d}
-    \]
-- **Option Value**: \( 	ext{max}(	ext{intrinsic value}, 	ext{pv_E[payoff]}) \)
+    ```
+    pv_E[payoff] = (1 / R) * (q * OptionValue_up + (1 - q) * OptionValue_down)
+    ```
+    where `q` is the risk-neutral probability given by:
+    ```
+    q = (R - d) / (u - d)
+    ```
+- **Option Value**: `max(intrinsic value, pv_E[payoff])`
   - For an American option, this value is the maximum of the intrinsic value and the present value of the expected payoff because the option can be exercised at any time.
 
 ### Process:
